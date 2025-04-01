@@ -17,9 +17,11 @@ This bash script automates the installation of the latest stable version of Go o
     wget https://raw.githubusercontent.com/kurianvarkey/install-go/main/install-go.sh
     ```
 
-    Or, if you have cloned the repository:
+    Or, by clonning the repository:
 
     ```bash
+    git clone https://github.com/kurianvarkey/install-go.git
+    
     # Navigate to the script's directory
     cd install-go
     ```
