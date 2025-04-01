@@ -75,3 +75,32 @@ This bash script automates the installation of the latest stable version of Go o
 ## Notes
 
 * This script installs Go in `/usr/local/go`.
+
+
+## Commands to update the project
+```
+# Update all dependencies to the latest versions.
+go get -u ./...
+
+# Verify installed module versions.
+go list -m all
+
+# Remove unused dependencies.
+go mod tidy
+
+# Test and rebuild the project.
+go build ./...	
+```
+
+To check for vulnerabilities:
+```
+go install golang.org/x/vuln/cmd/govulncheck@latest
+```
+
+```
+export PATH=$PATH:$(go env GOPATH)/bin
+```
+
+```
+govulncheck ./...
+```
