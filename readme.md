@@ -32,8 +32,19 @@ This bash script automates the installation of the latest stable version of Go o
 
 3.  **Run the script with sudo:**
 
+    For checking the latest version and install
     ```bash
     bash install-go.sh
+    ```
+
+    For specific version and install
+     ```bash
+    bash install-go.sh 1.24.1
+    ```
+
+     For specific version, arch and install
+     ```bash
+    bash install-go.sh 1.24.1 amd64
     ```
 
     The script will:
