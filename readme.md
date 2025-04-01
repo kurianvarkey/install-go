@@ -21,8 +21,11 @@ This bash script automates the installation of the latest stable version of Go o
 
     ```bash
     git clone https://github.com/kurianvarkey/install-go.git
-    
-    # Navigate to the script's directory
+
+    ```
+
+    ```bash  
+    # Navigate to the script's directory 
     cd install-go
     ```
 
