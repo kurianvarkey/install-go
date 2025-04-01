@@ -14,7 +14,7 @@ This bash script automates the installation of the latest stable version of Go o
 1.  **Download the script:**
 
     ```bash
-    wget https://github.com/kurianvarkey/install-go/install-go.sh
+    wget https://raw.githubusercontent.com/kurianvarkey/install-go/main/install-go.sh
     ```
 
     Or, if you have cloned the repository:
